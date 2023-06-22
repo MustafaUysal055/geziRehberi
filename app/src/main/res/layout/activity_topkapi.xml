@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".topkapi"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-27dp">
+
+    <ImageView
+        android:id="@+id/geri"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="geri"
+        android:src="@drawable/geri"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="403dp"
+        android:layout_height="134dp"
+        android:layout_marginBottom="12dp"
+        android:text="Saray, Osmanlı İmparatorluğu'nun 15. yüzyılda inşa edilmiş Topkapı Sarayı, Osmanlı İmparatorluğu'nun en önemli merkezlerinden biriydi ve 400 yıldan fazla bir süre boyunca  Osmanlı padişahlarının evi ve idari merkezi olarak hizmet vermiştir.  Saray, birçok saray, kütüphane, cami ve bahçe gibi birçok bölümden oluşmaktadır"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="4dp"
+        android:text="Günümüzde, Topkapı Sarayı Müzesi olarak hizmet vermektedir ve Osmanlı İmparatorluğu'nun tarihi ve kültürel mirasını korumakta ve sergilemektedir.  Müze, birçok sanat eseri, mücevher, silah, zırh, el yazması eser, minyatürler ve diğer Osmanlı dönemi objelerini içermektedir. Topkapı Sarayı Müzesi, İstanbul'un en önemli turistik yerlerinden biridir ve her yıl binlerce turist tarafından ziyaret edilmektedir"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="177dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="31dp"
+        android:text="Topkapı Sarayı"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/geri"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="235dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/topkapiresim2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="221dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/topkapiresim1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

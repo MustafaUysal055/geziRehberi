@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".kapalicarsi">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="177dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="16dp"
+        android:text="Kapalıçarşı"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/geri"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/geri"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="geri"
+        android:src="@drawable/geri"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="278dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView29"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:srcCompat="@drawable/kapaliresim1" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="403dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="8dp"
+        android:text="Kapalı Çarşı, İstanbul'un tarihi yarımadasında yer alan, ünlü bir alışveriş merkezidir.  15. yüzyılda inşa edilmiştir ve Osmanlı İmparatorluğu'nun en eski ve en büyük kapalı pazarlarından biridir. Kapalı Çarşı, 4.000'den fazla dükkana ev sahipliği yapmaktadır ve mücevher, tekstil, baharat, deri, halı, gümüş ve altın gibi birçok ürünün  satıldığı yerdir"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="401dp"
+        android:layout_height="143dp"
+        android:layout_marginBottom="10dp"
+        android:text="Çarşı, Osmanlı dönemi mimarisinin güzel örneklerinden biridir ve içindeki tarihi dokuları korumaktadır.  Aynı zamanda, İstanbul'un tarihi ve kültürel mirasının bir parçasıdır. Kapalı Çarşı, her yıl binlerce turist tarafından ziyaret edilmekte ve Türkiye'nin en popüler turistik yerlerinden biridir.  İstanbul'un diğer turistik yerleri gibi, Kapalı Çarşı da ziyaretçilere büyüleyici bir deneyim sunmaktadır"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="286dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/kapaliresim2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

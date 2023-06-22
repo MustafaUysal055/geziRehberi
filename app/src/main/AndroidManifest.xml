@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sehirplakakodu"
+        tools:targetApi="31">
+        <activity
+            android:name=".sinop"
+            android:exported="false" />
+        <activity
+            android:name=".kayseri"
+            android:exported="false" />
+        <activity
+            android:name=".kars"
+            android:exported="false" />
+        <activity
+            android:name=".gaziantep"
+            android:exported="false" />
+        <activity
+            android:name=".bursa"
+            android:exported="false" />
+        <activity
+            android:name=".ardihan"
+            android:exported="false" />
+        <activity
+            android:name=".trabzon"
+            android:exported="false" />
+        <activity
+            android:name=".kutahya"
+            android:exported="false" />
+        <activity
+            android:name=".nevsahir"
+            android:exported="false" />
+        <activity
+            android:name=".rize"
+            android:exported="false" />
+        <activity
+            android:name=".izmir"
+            android:exported="false" />
+        <activity
+            android:name=".ordu"
+            android:exported="false" />
+        <activity
+            android:name=".canakkale"
+            android:exported="false" />
+        <activity
+            android:name=".edirne"
+            android:exported="false" />
+        <activity
+            android:name=".aksaray"
+            android:exported="false" />
+        <activity
+            android:name=".agri"
+            android:exported="false" />
+        <activity
+            android:name=".afyon"
+            android:exported="false" />
+        <activity
+            android:name=".afton"
+            android:exported="false" />
+        <activity
+            android:name=".adiyaman"
+            android:exported="false" />
+        <activity
+            android:name=".adapazari"
+            android:exported="false" />
+        <activity
+            android:name=".amasya"
+            android:exported="false" />
+        <activity
+            android:name=".sivas"
+            android:exported="false" />
+        <activity
+            android:name=".denizli"
+            android:exported="false" />
+        <activity
+            android:name=".giresun"
+            android:exported="false" />
+        <activity
+            android:name=".konya"
+            android:exported="false" />
+        <activity
+            android:name=".antalya"
+            android:exported="false" />
+        <activity
+            android:name=".samsun"
+            android:exported="false" />
+        <activity
+            android:name=".yozgat"
+            android:exported="false" />
+        <activity
+            android:name=".malatya"
+            android:exported="false" />
+        <activity
+            android:name=".anitkabir"
+            android:exported="false" />
+        <activity
+            android:name=".ankara"
+            android:exported="false" />
+        <activity
+            android:name=".kapalicarsi"
+            android:exported="false" />
+        <activity
+            android:name=".rumeli"
+            android:exported="false" />
+        <activity
+            android:name=".sultanahmet"
+            android:exported="false" />
+        <activity
+            android:name=".topkapi"
+            android:exported="false" />
+        <activity
+            android:name=".dolmabahce"
+            android:exported="false" />
+        <activity
+            android:name=".ayasofya"
+            android:exported="false" />
+        <activity
+            android:name=".istanbul1"
+            android:exported="false" />
+        <activity
+            android:name=".istanbul"
+            android:exported="false" />
+        <activity
+            android:name=".ıstanbul"
+            android:exported="false" />
+        <activity
+            android:name=".baslangic"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gezilecekyer"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ıtalya"
+            android:exported="false" />
+        <activity
+            android:name=".fransa"
+            android:exported="false" />
+        <activity
+            android:name=".azerbeycan"
+            android:exported="false" />
+        <activity
+            android:name=".almanya"
+            android:exported="false" />
+        <activity
+            android:name=".ulkesecim"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".turkiye"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

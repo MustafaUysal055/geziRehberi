@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".ayasofya">
+
+    <ImageView
+        android:id="@+id/geri"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:onClick="geri"
+        android:src="@drawable/geri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="223dp"
+        android:layout_height="153dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/ayasofaresim" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="368dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="104dp"
+        android:text="Ayasofya Camisi, İstanbul'un tarihi yarımadasında yer alan tarihi bir cami ve müze olarak bilinir. İlk olarak Bizans İmparatoru Justinianus tarafından 537 yılında inşa edilen yapı,  o zamanlar dünyanın en büyük kubbesine sahip kilisesi olarak tanındı. Fatih Sultan Mehmed'in İstanbul'u fethinden sonra kilise camiye çevrildi ve Osmanlı İmparatorluğu döneminde cami olarak kullanıldı"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="376dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="12dp"
+        android:text="Daha sonra Cumhuriyet döneminde müzeye dönüştürüldü ve 2020 yılında tekrar cami olarak kullanılmaya başlandı. Ayasofya Camisi'nin mimarisi ve iç dekorasyonu oldukça etkileyicidir. Yapının kubbesi, yüksekliği ve genişliği ile muhteşem bir yapıdır.  İçerideki mozaikler, freskler ve sütunlar da yapıya tarihi bir dokunuş katmaktadır."
+        android:textAlignment="center"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="254dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/ayasofyaresim2" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="266dp"
+        android:layout_height="50dp"
+        android:text="Ayasofya Cami"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
