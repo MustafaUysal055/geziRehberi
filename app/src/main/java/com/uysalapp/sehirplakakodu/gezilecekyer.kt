@@ -142,5 +142,13 @@ class gezilecekyer : AppCompatActivity() {
         val intent = Intent(this@gezilecekyer, sinop::class.java)
         startActivity(intent)
     }
+    fun bartin(view: View) {
+        val intent = Intent(this@gezilecekyer, bartin::class.java)
+        startActivity(intent)
+    }
+    fun sakarya(view: View) {
+        val intent = Intent(this@gezilecekyer, sakarya::class.java)
+        startActivity(intent)
+    }
 }
 
